@@ -160,7 +160,9 @@ app.post('/send', async (req, res) => {
       <p style="font-size:16px;color:#fff;">¡Gracias por registrarte! Estamos felices de tenerte con nosotros.</p>
       <div style="background:#fff;padding:20px;border-radius:8px;margin:20px 0;">
         <p style="color:#1a2942;font-size:15px;margin:0 0 10px 0;">Para validar tu cuenta, haz clic en el siguiente enlace:</p>
-  <a href="${finalValidationUrl}" style="display:inline-block;background-color:#1a2942;color:#fff;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:bold;">Validar cuenta</a>
+  <a href="${finalValidationUrl}" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#1a2942;color:#fff;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:bold;">Validar cuenta</a>
+        <br/>
+  <a href="https://cebac-phi.vercel.app/login" target="_blank" rel="noopener noreferrer" style="display:inline-block;background-color:#1a2942;color:#fff;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:bold;margin-top:10px;">Acceso al portal</a>
       </div>
       <p style="font-size:13px;color:#bfc9d9;">Si no solicitaste este registro, puedes ignorar este correo.</p>
     </div>
